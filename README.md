@@ -7,3 +7,10 @@ b. Allow the user to find their boarding pass on their phone in the security lin
 ![](login.png)
 
 ![](home-and-pass.png)
+
+Install/Run
+- make sure you have node.js installed
+- run `npm install`
+- run `bower install`
+- run `gulp build`
+- open app/index.html or `gulp connect` then localhost:9000

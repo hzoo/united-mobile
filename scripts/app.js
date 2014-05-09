@@ -39,12 +39,12 @@ var InputBox = React.createClass({displayName: 'InputBox',
 
 var Login = React.createClass({displayName: 'Login',
     handleSubmit: function() {
-        if (history.pushState) {
-            history.pushState(null, null, '#/home');
-        }
-        else {
+        // if (history.pushState) {
+        //     history.pushState(null, null, '#/home');
+        // }
+        // else {
             location.hash = '#/home';
-        }
+        // }
     },
     render: function() {
         return (
@@ -175,7 +175,7 @@ var App = React.createClass({displayName: 'App',
 
 React.renderComponent(App(null ), document.getElementById('form'));
 
-}).call(this,require("/media/DATA/Downloads/ibm-united/node_modules/gulp-browserify/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_a57b84e9.js","/")
+}).call(this,require("/media/DATA/Downloads/ibm-united/node_modules/gulp-browserify/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_70ec507c.js","/")
 },{"/media/DATA/Downloads/ibm-united/node_modules/gulp-browserify/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":5,"buffer":2,"react/addons":6}],2:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /*!

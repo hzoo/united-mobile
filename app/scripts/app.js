@@ -38,10 +38,10 @@ var InputBox = React.createClass({
 var Login = React.createClass({
     handleSubmit: function() {
         if (history.pushState) {
-            history.pushState(null, null, '#home');
+            history.pushState(null, null, '#/home');
         }
         else {
-            location.hash = '#home';
+            location.hash = '#/home';
         }
     },
     render: function() {
